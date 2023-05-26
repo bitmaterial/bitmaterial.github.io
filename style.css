@@ -117,7 +117,7 @@
 .linkbox {
     padding-left: 5.5vw;
     width: 89vw;
-    height: 500px;
+    height: 530px;
     padding-top: 4vh;
     font-size: 17px;
     font-family: 'Montserrat';
@@ -132,7 +132,7 @@
     animation-fill-mode: forwards;}
 
 .belowtext {
-    margin-top: 240px;
+    margin-top: 320px;
     padding-left: 5.5vw;
     width: 89vw;
 
@@ -171,7 +171,7 @@
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
@@ -189,13 +189,13 @@
 
 .btn1 {
     position: fixed;
-    top: 85px;
+    top: 90px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
@@ -212,13 +212,13 @@
 }
 .btn2 {
     position: fixed;
-    top: 145px;
+    top: 155px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
@@ -235,13 +235,13 @@
 }
 .btn3 {
     position: fixed;
-    top: 205px;
+    top: 220px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
@@ -258,13 +258,13 @@
 }
 .btn4 {
     position: fixed;
-    top: 265px;
+    top: 285px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
@@ -281,13 +281,13 @@
 }
 .btn5 {
     position: fixed;
-    top: 325px;
+    top: 350px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
@@ -304,13 +304,13 @@
 }
 .btn6{
     position: fixed;
-    top: 385px;
+    top: 415px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
@@ -327,13 +327,13 @@
 }
 .btn7 {
     position: fixed;
-    top: 445px;
+    top: 480px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
-    height: 6.5vh;
+    height: 60px;
     min-width: 200px;
     width: 28vw;
     display: flex;
