@@ -114,6 +114,41 @@
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;}
 
+.linkbox {
+    padding-left: 5.5vw;
+    width: 89vw;
+    height: 500px;
+    padding-top: 4vh;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 4vh;
+    opacity: 0;
+    transform: translateY(30vh);
+    animation-name: slide-upmntxt;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;}
+
+.belowtext {
+    margin-top: 240px;
+    padding-left: 5.5vw;
+    width: 89vw;
+
+    font-size: 17px;
+    font-family: 'Montserrat';
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 4vh;
+    opacity: 0;
+    transform: translateY(30vh);
+    animation-name: slide-upmntxt;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;}
+
+
 .hmt {
     font-size: 17px;
     font-family: 'Montserrat';
@@ -126,54 +161,18 @@
     color: black;
     letter-spacing: 0.5px;}
 
-.btnmain{
-    margin-left: 33vw;
-    position: fixed;
-    margin-top: 25px;
-    text-decoration: none;
-    border-radius: 28px;
-    height: 6.5vh;
-    width: 28vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px transparent;
-    font-family: 'Montserrat';
-    opacity: 1;
-    transform: translateY(40vh);
-    animation-name: slide-upproj;
-    animation-duration: 2.8s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
-
-.btn1{
-    margin-left: 33vw;
-    position: fixed;
-    margin-top: 80px;
-    text-decoration: none;
-    border-radius: 28px;
-    height: 6.5vh;
-    width: 28vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px transparent;
-    font-family: 'Montserrat';
-    opacity: 1;
-    transform: translateY(40vh);
-    animation-name: slide-upproj;
-    animation-duration: 2.8s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
 
 
-.btn2{
-    margin-left: 33vw;
+.btnmain {
     position: fixed;
-    margin-top: 135px;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
     height: 6.5vh;
+    min-width: 200px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -185,14 +184,19 @@
     animation-name: slide-upproj;
     animation-duration: 2.8s;
     animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
-.btn3{
-    margin-left: 33vw;
+    animation-fill-mode: forwards;
+}
+
+.btn1 {
     position: fixed;
-    margin-top: 190px;
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
     height: 6.5vh;
+    min-width: 200px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -204,14 +208,18 @@
     animation-name: slide-upproj;
     animation-duration: 2.8s;
     animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
-.btn4{
-    margin-left: 33vw;
+    animation-fill-mode: forwards;
+}
+.btn2 {
     position: fixed;
-    margin-top: 245px;
+    top: 145px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
     height: 6.5vh;
+    min-width: 200px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -223,14 +231,18 @@
     animation-name: slide-upproj;
     animation-duration: 2.8s;
     animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
-.btn5{
-    margin-left: 33vw;
+    animation-fill-mode: forwards;
+}
+.btn3 {
     position: fixed;
-    margin-top: 300px;
+    top: 205px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
     height: 6.5vh;
+    min-width: 200px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -242,14 +254,64 @@
     animation-name: slide-upproj;
     animation-duration: 2.8s;
     animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
+    animation-fill-mode: forwards;
+}
+.btn4 {
+    position: fixed;
+    top: 265px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 28px;
+    height: 6.5vh;
+    min-width: 200px;
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    font-family: 'Montserrat';
+    opacity: 1;
+    transform: translateY(40vh);
+    animation-name: slide-upproj;
+    animation-duration: 2.8s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.btn5 {
+    position: fixed;
+    top: 325px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 28px;
+    height: 6.5vh;
+    min-width: 200px;
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    font-family: 'Montserrat';
+    opacity: 1;
+    transform: translateY(40vh);
+    animation-name: slide-upproj;
+    animation-duration: 2.8s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
 .btn6{
-    margin-left: 33vw;
     position: fixed;
-    margin-top: 355px;
+    top: 385px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
     height: 6.5vh;
+    min-width: 200px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -261,14 +323,18 @@
     animation-name: slide-upproj;
     animation-duration: 2.8s;
     animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
-.btn7{
-    margin-left: 33vw;
+    animation-fill-mode: forwards;
+}
+.btn7 {
     position: fixed;
-    margin-top: 410px;
+    top: 445px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-decoration: none;
     border-radius: 28px;
     height: 6.5vh;
+    min-width: 200px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -280,7 +346,11 @@
     animation-name: slide-upproj;
     animation-duration: 2.8s;
     animation-timing-function: ease-out;
-    animation-fill-mode: forwards;}
+    animation-fill-mode: forwards;
+}
+
+
+
 .backgnd {
     position: relative;
     height: 100vh;
