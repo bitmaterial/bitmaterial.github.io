@@ -41,13 +41,13 @@
     color: #9E9E9F;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 15px;}
+    font-size: 18px;}
 
 .mecl {
     color: black;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 15px;}
+    font-size: 18px;}
 
 .navbar-right {
     display: flex;}
@@ -101,7 +101,23 @@
 .maintext {
     padding-left: 5.5vw;
     width: 89vw;
-    padding-top: 4vh;
+    padding-top: 30px;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 4vh;
+    opacity: 0;
+    transform: translateY(30vh);
+    animation-name: slide-upmntxt;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;}
+
+.semsel {
+    /*padding-left: 5.5vw;*/
+    width: 89vw;
+    padding-top: 10px;
     font-size: 17px;
     font-family: 'Montserrat';
     color: black;
@@ -117,8 +133,8 @@
 .linkbox {
     padding-left: 5.5vw;
     width: 89vw;
-    height: 530px;
-    padding-top: 4vh;
+    height: 230px;
+    padding-top: 15px;
     font-size: 17px;
     font-family: 'Montserrat';
     color: black;
@@ -132,7 +148,7 @@
     animation-fill-mode: forwards;}
 
 .belowtext {
-    margin-top: 320px;
+    margin-top: 60px;
     padding-left: 5.5vw;
     width: 89vw;
 
@@ -140,7 +156,7 @@
     font-family: 'Montserrat';
     color: black;
     letter-spacing: 0.5px;
-    line-height: 4vh;
+    line-height: 33px;
     opacity: 0;
     transform: translateY(30vh);
     animation-name: slide-upmntxt;
@@ -161,18 +177,86 @@
     color: black;
     letter-spacing: 0.5px;}
 
+.hmt1 {
+    font-size: 25px;
+    font-family: 'Montserrat';
+    color: #9E9E9F;
+    letter-spacing: 0.5px;}
 
+.hmtb1 {
+    font-size: 25px;
+    font-family: 'Montserrat';
+    color: black;
+    letter-spacing: 0.5px;}
 
-.btnmain {
-    position: fixed;
-    top: 25px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+/*.button-container{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    gap: -105px;*/
+/*}*/
+
+/*.btnmain {*/
+/*    position: fixed;*/
+/*    top: 25px;*/
+/*    left: -25vw;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+
+/*.btn1 {*/
+/*    position: fixed;*/
+/*    padding-left: 100px;*/
+/*    top: 25px;*/
+/*    !*left: 0;*!*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btnmain,
+.btn1 {
+    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
     height: 60px;
-    min-width: 200px;
+    min-width: 165px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -182,67 +266,26 @@
     opacity: 1;
     transform: translateY(40vh);
     animation-name: slide-upproj;
-    animation-duration: 2.8s;
+    animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
 
 .btn1 {
-    position: fixed;
-    top: 90px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-decoration: none;
-    border-radius: 28px;
-    height: 60px;
-    min-width: 200px;
-    width: 28vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px transparent;
-    font-family: 'Montserrat';
-    opacity: 1;
-    transform: translateY(40vh);
-    animation-name: slide-upproj;
-    animation-duration: 2.8s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+    margin-right: 10px; /* Add margin between the buttons */
+    margin-left: 10px;
 }
-.btn2 {
-    position: fixed;
-    top: 155px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-decoration: none;
-    border-radius: 28px;
-    height: 60px;
-    min-width: 200px;
-    width: 28vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px transparent;
-    font-family: 'Montserrat';
-    opacity: 1;
-    transform: translateY(40vh);
-    animation-name: slide-upproj;
-    animation-duration: 2.8s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-}
+
+
+.btn2,
 .btn3 {
-    position: fixed;
-    top: 220px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
+    margin-top: 10px;
+    /*margin-top: 25px;*/
     height: 60px;
-    min-width: 200px;
+    min-width: 165px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -256,39 +299,21 @@
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
-.btn4 {
-    position: fixed;
-    top: 285px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-decoration: none;
-    border-radius: 28px;
-    height: 60px;
-    min-width: 200px;
-    width: 28vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px transparent;
-    font-family: 'Montserrat';
-    opacity: 1;
-    transform: translateY(40vh);
-    animation-name: slide-upproj;
-    animation-duration: 2.8s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+
+.btn3 {
+    margin-right: 10px; /* Add margin between the buttons */
+    margin-left: 10px;
 }
+
+
+.btn4,
 .btn5 {
-    position: fixed;
-    top: 350px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
     height: 60px;
-    min-width: 200px;
+    margin-top: 10px;
+    min-width: 165px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -298,43 +323,25 @@
     opacity: 1;
     transform: translateY(40vh);
     animation-name: slide-upproj;
-    animation-duration: 2.8s;
+    animation-duration: 3.6s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
-.btn6{
-    position: fixed;
-    top: 415px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-decoration: none;
-    border-radius: 28px;
-    height: 60px;
-    min-width: 200px;
-    width: 28vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px transparent;
-    font-family: 'Montserrat';
-    opacity: 1;
-    transform: translateY(40vh);
-    animation-name: slide-upproj;
-    animation-duration: 2.8s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+
+.btn5 {
+    margin-right: 10px; /* Add margin between the buttons */
+    margin-left: 10px;
 }
+
+
+.btn6,
 .btn7 {
-    position: fixed;
-    top: 480px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
     height: 60px;
-    min-width: 200px;
+    margin-top: 10px;
+    min-width: 165px;
     width: 28vw;
     display: flex;
     align-items: center;
@@ -344,10 +351,154 @@
     opacity: 1;
     transform: translateY(40vh);
     animation-name: slide-upproj;
-    animation-duration: 2.8s;
+    animation-duration: 4.4s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
+
+.btn7 {
+    margin-right: 10px; /* Add margin between the buttons */
+    margin-left: 10px;
+}
+
+/*.btn2 {*/
+/*    position: fixed;*/
+/*    top: 155px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+/*.btn3 {*/
+/*    position: fixed;*/
+/*    top: 220px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+/*.btn4 {*/
+/*    position: fixed;*/
+/*    top: 285px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+/*.btn5 {*/
+/*    position: fixed;*/
+/*    top: 350px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+/*.btn6{*/
+/*    position: fixed;*/
+/*    top: 415px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
+/*.btn7 {*/
+/*    position: fixed;*/
+/*    top: 480px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: 0 auto;*/
+/*    text-decoration: none;*/
+/*    border-radius: 28px;*/
+/*    height: 60px;*/
+/*    min-width: 200px;*/
+/*    width: 28vw;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: 1px transparent;*/
+/*    font-family: 'Montserrat';*/
+/*    opacity: 1;*/
+/*    transform: translateY(40vh);*/
+/*    animation-name: slide-upproj;*/
+/*    animation-duration: 2.8s;*/
+/*    animation-timing-function: ease-out;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
 
 
 
