@@ -189,62 +189,6 @@
     color: black;
     letter-spacing: 0.5px;}
 
-/*.button-container{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    gap: -105px;*/
-/*}*/
-
-/*.btnmain {*/
-/*    position: fixed;*/
-/*    top: 25px;*/
-/*    left: -25vw;*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-
-/*.btn1 {*/
-/*    position: fixed;*/
-/*    padding-left: 100px;*/
-/*    top: 25px;*/
-/*    !*left: 0;*!*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-
 .button-container {
     display: flex;
     justify-content: center;
@@ -252,7 +196,6 @@
 
 .btnmain,
 .btn1 {
-    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
     height: 60px;
@@ -272,18 +215,16 @@
 }
 
 .btn1 {
-    margin-right: 10px; /* Add margin between the buttons */
+    margin-right: 10px;
     margin-left: 10px;
 }
 
 
 .btn2,
 .btn3 {
-    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
     margin-top: 10px;
-    /*margin-top: 25px;*/
     height: 60px;
     min-width: 165px;
     width: 28vw;
@@ -301,14 +242,13 @@
 }
 
 .btn3 {
-    margin-right: 10px; /* Add margin between the buttons */
+    margin-right: 10px;
     margin-left: 10px;
 }
 
 
 .btn4,
 .btn5 {
-    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
     height: 60px;
@@ -329,14 +269,13 @@
 }
 
 .btn5 {
-    margin-right: 10px; /* Add margin between the buttons */
+    margin-right: 10px;
     margin-left: 10px;
 }
 
 
 .btn6,
 .btn7 {
-    /* Your existing button styles */
     text-decoration: none;
     border-radius: 28px;
     height: 60px;
@@ -357,150 +296,9 @@
 }
 
 .btn7 {
-    margin-right: 10px; /* Add margin between the buttons */
+    margin-right: 10px;
     margin-left: 10px;
 }
-
-/*.btn2 {*/
-/*    position: fixed;*/
-/*    top: 155px;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-/*.btn3 {*/
-/*    position: fixed;*/
-/*    top: 220px;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-/*.btn4 {*/
-/*    position: fixed;*/
-/*    top: 285px;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-/*.btn5 {*/
-/*    position: fixed;*/
-/*    top: 350px;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-/*.btn6{*/
-/*    position: fixed;*/
-/*    top: 415px;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-/*.btn7 {*/
-/*    position: fixed;*/
-/*    top: 480px;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    margin: 0 auto;*/
-/*    text-decoration: none;*/
-/*    border-radius: 28px;*/
-/*    height: 60px;*/
-/*    min-width: 200px;*/
-/*    width: 28vw;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border: 1px transparent;*/
-/*    font-family: 'Montserrat';*/
-/*    opacity: 1;*/
-/*    transform: translateY(40vh);*/
-/*    animation-name: slide-upproj;*/
-/*    animation-duration: 2.8s;*/
-/*    animation-timing-function: ease-out;*/
-/*    animation-fill-mode: forwards;*/
-/*}*/
-
-
 
 .backgnd {
     position: relative;
